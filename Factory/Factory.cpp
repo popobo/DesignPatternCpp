@@ -53,7 +53,7 @@ protected:
 };
 
 
-int main() {
+int main1111() {
 	ExportOperate* pOperate = new ExportTxtFileOperate();
 	pOperate->exportData("hello");
 	system("pause");

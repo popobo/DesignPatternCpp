@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E4B3D160-3BC0-4339-9364-6182BE0F9FF7}</ProjectGuid>
-    <RootNamespace>Factory</RootNamespace>
+    <ProjectGuid>{DDD66DB6-D27C-414E-81A9-C337EB0590B0}</ProjectGuid>
+    <RootNamespace>AbstractFactory</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,8 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Factory.cpp" />
-    <ClCompile Include="IOC.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
